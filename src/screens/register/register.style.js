@@ -1,4 +1,5 @@
 import styled from "styled-components/native";
+import { TextInput, TouchableOpacity } from "react-native";
 
 export const Home = styled.View`
   padding-left: 20px;
@@ -23,4 +24,8 @@ export const Cardtitle = styled.Text`
   font-weight: 600;
   margin-top: 4px;
   color: #224870;
+`;
+
+export const Form = styled(TextInput)`
+  background-color: #e0dcfa;
 `;
